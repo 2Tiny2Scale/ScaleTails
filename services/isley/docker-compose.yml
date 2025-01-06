@@ -13,7 +13,7 @@ services:
       - TS_USERSPACE=false
     volumes:
       - ${PWD}/config:/config # Config folder used to store Tailscale files - you may need to change the path
-      - ${PWD}/${SERVICE}/ts/state:/var/lib/tailscale # Tailscale requirement - you may need to change the path
+      - ${PWD}/ts/state:/var/lib/tailscale # Tailscale requirement - you may need to change the path
     devices:
       - /dev/net/tun:/dev/net/tun # Network configuration for Tailscale to work
       - TS_ENABLE_HEALTH_CHECK=true              # Enable healthcheck endpoint: "/healthz"
