@@ -21,16 +21,17 @@ If you would like to add your own config, you can use the [service-template](tem
 
 ### Media and Entertainment
 
-| 🎥 Service         | 📝 Description                                                                             | 🔗 Link                         |
-| ------------------ | ------------------------------------------------------------------------------------------ | ------------------------------- |
-| 🎬 **Plex**        | A media server that organizes video, music, and photos from personal media libraries.      | [Details](services/plex)        |
-| 📺 **Jellyfin**    | An open-source media system that puts you in control of managing and streaming your media. | [Details](services/jellyfin)    |
-| 🎞️ **Radarr**      | A movie collection manager for Usenet and BitTorrent users.                                | [Details](services/radarr)      |
-| 📡 **Sonarr**      | A PVR for Usenet and BitTorrent users to manage TV series.                                 | [Details](services/sonarr)      |
-| 🎥 **Bazarr**      | A companion tool to Radarr and Sonarr for managing subtitles.                              | [Details](services/bazarr)      |
-| 📊 **Tautulli**    | A monitoring and tracking tool for Plex Media Server.                                      | [Details](services/tautulli)    |
-| 📥 **qBittorrent** | An open-source BitTorrent client.                                                          | [Details](services/qbittorrent) |
-| 🔗 **Slink**       | A fast, self-hosted alternative to ShareDrop for secure local file sharing.                | [Details](services/slink)       |
+| 🎥 Service            | 📝 Description                                                                             | 🔗 Link                            |
+| --------------------- | ------------------------------------------------------------------------------------------ | ---------------------------------- |
+| 🎬 **Plex**           | A media server that organizes video, music, and photos from personal media libraries.      | [Details](services/plex)           |
+| 📺 **Jellyfin**       | An open-source media system that puts you in control of managing and streaming your media. | [Details](services/jellyfin)       |
+| 🎞️ **Radarr**         | A movie collection manager for Usenet and BitTorrent users.                                | [Details](services/radarr)         |
+| 📡 **Sonarr**         | A PVR for Usenet and BitTorrent users to manage TV series.                                 | [Details](services/sonarr)         |
+| 🎥 **Bazarr**         | A companion tool to Radarr and Sonarr for managing subtitles.                              | [Details](services/bazarr)         |
+| 📊 **Tautulli**       | A monitoring and tracking tool for Plex Media Server.                                      | [Details](services/tautulli)       |
+| 📥 **qBittorrent**    | An open-source BitTorrent client.                                                          | [Details](services/qbittorrent)    |
+| 🔗 **Slink**          | A fast, self-hosted alternative to ShareDrop for secure local file sharing.                | [Details](services/slink)          |
+| 🎧 **Audiobookshelf** | A self-hosted audiobook and podcast server with multi-user support and playback syncing.   | [Details](services/audiobookshelf) |
 
 ### Productivity and Collaboration
 
