@@ -43,7 +43,7 @@ services:
       # DOMAIN: "https://vaultwarden.example.com"  # required when using a reverse proxy; your domain; vaultwarden needs to know it's https to work properly with attachments
       SIGNUPS_ALLOWED: "true" # Deactivate this with "false" after you have created your account so that no strangers can register
     volumes:
-      - ${PWD}/${SERVICE}/vw-data:/data
+      - ${PWD}/${SERVICE}-data/vw-data:/data
     depends_on:
       tailscale:
         condition: service_healthy

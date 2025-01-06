@@ -43,8 +43,8 @@ services:
       - TRUST_PROXY=false # Set to true if a reverse proxy is in front of the container
       - TZ=Europe/Amsterdam
     volumes:
-      - ${PWD}/${SERVICE}/data:/opt/app/backend/data
-      - ${PWD}/${SERVICE}/images:/opt/app/frontend/public/img
+      - ${PWD}/${SERVICE}-data/data:/opt/app/backend/data
+      - ${PWD}/${SERVICE}-data/images:/opt/app/frontend/public/img
     depends_on:
       tailscale:
         condition: service_healthy

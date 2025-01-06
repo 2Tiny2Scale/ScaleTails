@@ -42,8 +42,8 @@ services:
     environment:
       - TZ=Europe/Amsterdam
     volumes:
-      - ${PWD}/${SERVICE}/isley-db:/app/data
-      - ${PWD}/${SERVICE}/isley-uploads:/app/uploads
+      - ${PWD}/${SERVICE}-data/isley-db:/app/data
+      - ${PWD}/${SERVICE}-data/isley-uploads:/app/uploads
     depends_on:
       tailscale:
         condition: service_healthy

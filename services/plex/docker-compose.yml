@@ -46,9 +46,9 @@ services:
       - VERSION=docker
       - PLEX_CLAIM= #optional
     volumes:
-      - ${PWD}/${SERVICE}/config:/config
-      - ${PWD}/${SERVICE}/media/tvseries:/tv
-      - ${PWD}/${SERVICE}/media/movies:/movies
+      - ${PWD}/${SERVICE}-data/config:/config
+      - ${PWD}/${SERVICE}-data/media/tvseries:/tv
+      - ${PWD}/${SERVICE}-data/media/movies:/movies
     depends_on:
       tailscale:
         condition: service_healthy

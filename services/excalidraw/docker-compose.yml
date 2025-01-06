@@ -44,7 +44,7 @@ services:
       - TZ=Europe/Amsterdam
     stdin_open: true
     volumes:
-      - ${PWD}/${SERVICE}/app/config:/config
+      - ${PWD}/${SERVICE}-data/app/config:/config
     depends_on:
       tailscale:
         condition: service_healthy

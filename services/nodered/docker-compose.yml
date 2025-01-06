@@ -44,7 +44,7 @@ services:
       - PGID=1000
       - TZ=Europe/Amsterdam
     volumes:
-      - ${PWD}/${SERVICE}/app/config:/data
+      - ${PWD}/${SERVICE}-data/app/config:/data
     depends_on:
       tailscale:
         condition: service_healthy

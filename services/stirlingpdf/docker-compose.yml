@@ -44,10 +44,10 @@ services:
       - INSTALL_BOOK_AND_ADVANCED_HTML_OPS=false
       - LANGS=en_GB
     volumes:
-      - ${PWD}/${SERVICE}/trainingData:/usr/share/tessdata # Required for extra OCR languages
-      - ${PWD}/${SERVICE}/extraConfigs:/configs
-#      - ${PWD}/${SERVICE}/customFiles:/customFiles/ # May be enabled if desired
-#      - ${PWD}/${SERVICE}/logs:/logs/ # May be enabled if desired
+      - ${PWD}/${SERVICE}-data/trainingData:/usr/share/tessdata # Required for extra OCR languages
+      - ${PWD}/${SERVICE}-data/extraConfigs:/configs
+#      - ${PWD}/${SERVICE}-data/customFiles:/customFiles/ # May be enabled if desired
+#      - ${PWD}/${SERVICE}-data/logs:/logs/ # May be enabled if desired
     depends_on:
       tailscale:
         condition: service_healthy
