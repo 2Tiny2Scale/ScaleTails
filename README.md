@@ -44,6 +44,7 @@ If you would like to add your own config, you can use the [service-template](tem
 | 🔄 **Resilio Sync**  | A fast, reliable, and simple file sync and share solution.                      | [Details](services/resilio-sync)   |
 | 🗃️ **Vaultwarden**   | An unofficial Bitwarden server implementation written in Rust.                  | [Details](services/vaultwarden)    |
 | 🌿 **Isley**         | A self-hosted cannabis grow journal for tracking plants and managing grow data. | [Details](services/isley)          |
+| ✂️ **ClipCascade**   | A self-hosted clipboard manager for syncing and organizing clipboard history.   | [Details](services/clipcascade)    |
 
 ### Development Tools
 
