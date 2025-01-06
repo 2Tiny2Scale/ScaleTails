@@ -44,8 +44,8 @@ services:
       - PGID=1000
       - TZ=Europe/Amsterdam
     volumes:
-      - ${PWD}/${SERVICE}/etc-pihole:/etc/pihole
-      - ${PWD}/${SERVICE}/etc-dnsmasq.d:/etc/dnsmasq.d
+      - ${PWD}/${SERVICE}-data/etc-pihole:/etc/pihole
+      - ${PWD}/${SERVICE}-data/etc-dnsmasq.d:/etc/dnsmasq.d
     #   https://github.com/pi-hole/docker-pi-hole#note-on-capabilities
     depends_on:
       tailscale:

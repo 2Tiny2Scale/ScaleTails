@@ -42,8 +42,8 @@ services:
     environment:
       - TZ=Europe/Amsterdam
     volumes:
-      - ${PWD}/${SERVICE}/gokapi-data:/app/data
-      - ${PWD}/${SERVICE}/gokapi-config:/app/config
+      - ${PWD}/${SERVICE}-data/gokapi-data:/app/data
+      - ${PWD}/${SERVICE}-data/gokapi-config:/app/config
     depends_on:
       tailscale:
         condition: service_healthy

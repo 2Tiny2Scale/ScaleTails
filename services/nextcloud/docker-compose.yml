@@ -46,7 +46,7 @@ services:
       - MYSQL_HOST=db # Please note, this variable should reflect the service name of the database itself, in this case db
       - TZ=Europe/Amsterdam
     volumes:
-      - ${PWD}/${SERVICE}/nextcloud_data/:/var/www/html
+      - ${PWD}/${SERVICE}-data/nextcloud_data/:/var/www/html
     depends_on:
       tailscale:
         condition: service_healthy

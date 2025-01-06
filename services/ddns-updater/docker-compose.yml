@@ -65,7 +65,7 @@ services:
       - LOG_CALLER=hidden
       #- SHOUTRRR_ADDRESSES=
     volumes:
-      - ${PWD}/${SERVICE}/data:/updater/data
+      - ${PWD}/${SERVICE}-data/data:/updater/data
     depends_on:
       tailscale:
         condition: service_healthy

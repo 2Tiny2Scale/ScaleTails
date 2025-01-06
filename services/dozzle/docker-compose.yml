@@ -42,7 +42,7 @@ services:
     environment:
       DOZZLE_AUTH_PROVIDER: simple
     volumes:
-      - ${PWD}/${SERVICE}/dozzle-data:/data
+      - ${PWD}/${SERVICE}-data/dozzle-data:/data
       - /var/run/docker.sock:/var/run/docker.sock:ro
     depends_on:
       tailscale:

@@ -45,7 +45,7 @@ services:
       - Java_Xmx=1g # OPTIONAL: Setting a maximum Java heap size of 1 Gib
       - TZ=Europe/Amsterdam
     volumes:
-      - ${PWD}/${SERVICE}/ngrams:/ngrams
+      - ${PWD}/${SERVICE}-data/ngrams:/ngrams
     depends_on:
       tailscale:
         condition: service_healthy

@@ -44,7 +44,7 @@ services:
       - PGID=1000
       - TZ=Europe/Amsterdam
     volumes:
-      - ${PWD}/${SERVICE}/uptime-kuma-data:/app/data # uptime-kuma data/configuration folder
+      - ${PWD}/${SERVICE}-data/uptime-kuma-data:/app/data # uptime-kuma data/configuration folder
       - /var/run/docker.sock:/var/run/docker.sock:ro # Read-only access to the docker.sock
     depends_on:
       tailscale:

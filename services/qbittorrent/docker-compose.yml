@@ -46,8 +46,8 @@ services:
       - WEBUI_PORT=8080 
       # - TORRENTING_PORT=6881 #optional
     volumes:
-      - ${PWD}/${SERVICE}/config:/config
-      - ${PWD}/${SERVICE}/downloads:/downloads
+      - ${PWD}/${SERVICE}-data/config:/config
+      - ${PWD}/${SERVICE}-data/downloads:/downloads
     depends_on:
       tailscale:
         condition: service_healthy

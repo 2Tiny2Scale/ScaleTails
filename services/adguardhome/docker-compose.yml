@@ -43,8 +43,8 @@ services:
     environment:
       - TZ=Europe/Amsterdam
     volumes:
-      - ${PWD}/${SERVICE}/workdir:/opt/adguardhome/work # Work directory for Adguard Home - you may need to change the path
-      - ${PWD}/${SERVICE}/configdir:/opt/adguardhome/conf # Config directory for Adguard Home - you may need to change the path
+      - ${PWD}/${SERVICE}-data/workdir:/opt/adguardhome/work # Work directory for Adguard Home - you may need to change the path
+      - ${PWD}/${SERVICE}-data/configdir:/opt/adguardhome/conf # Config directory for Adguard Home - you may need to change the path
     depends_on:
       tailscale:
         condition: service_healthy

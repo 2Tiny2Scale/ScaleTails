@@ -59,8 +59,8 @@ services:
     # Available options are local and smb
     - STORAGE_PROVIDER=local
     volumes:
-      - ${PWD}/${SERVICE}/var/data:/app/var/data
-      - ${PWD}/${SERVICE}/images:/app/slink/images
+      - ${PWD}/${SERVICE}-data/var/data:/app/var/data
+      - ${PWD}/${SERVICE}-data/images:/app/slink/images
     depends_on:
       tailscale:
         condition: service_healthy

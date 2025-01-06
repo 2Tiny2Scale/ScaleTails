@@ -44,9 +44,9 @@ services:
       - PGID=1000
       - TZ=Europe/Amsterdam
     volumes:
-      - ${PWD}/${SERVICE}/config:/config
-      - ${PWD}/${SERVICE}/media/movies:/movies
-      - ${PWD}/${SERVICE}/media/tvseries:/tv
+      - ${PWD}/${SERVICE}-data/config:/config
+      - ${PWD}/${SERVICE}-data/media/movies:/movies
+      - ${PWD}/${SERVICE}-data/media/tvseries:/tv
     depends_on:
       tailscale:
         condition: service_healthy
