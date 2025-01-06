@@ -6,6 +6,20 @@ The provided configurations showcase how to set up Tailscale alongside Docker se
 
 If you would like to add your own config, you can use the [service-template](templates/service-template/) or simply open an [issue](https://github.com/2Tiny2Scale/tailscale-docker-sidecar-configs/issues).
 
+## Table of Contents
+- [Compose Configurations](#available-configurations)
+  - [Networking and Security](#networking-and-security) 
+  - [Media and Entertainment](#media-and-entertainment) 
+  - [Productivity and Collaboration](#productivity-and-collaboration) 
+  - [Development Tools](#development-tools) 
+  - [Monitoring and Analytics](#monitoring-and-analytics) 
+- [Tailscale Information](#tailscale-information)
+  - [Tailscale Funnel vs. Tailscale Serve](#tailscale-funnel-vs-tailscale-serve)
+  - [Tailscale Funnel](#tailscale-funnel)
+  - [Tailscale Serve](#tailscale-serve)
+  - [Tailscale Documentatuion](#tailscale-documentation)
+- [License](#license)
+
 ## Available Configurations
 
 ### Networking and Security
@@ -69,7 +83,9 @@ If you would like to add your own config, you can use the [service-template](tem
 | 📊 **Uptime Kuma** | A self-hosted monitoring tool like "Uptime Robot".                                  | [Details](services/uptime-kuma) |
 | 📉 **Beszel**      | A lightweight server monitoring hub with historical data, Docker stats, and alerts. | [Details](services/beszel)      |
 
-## Tailscale Funnel vs. Tailscale Serve
+## Tailscale Information
+
+### Tailscale Funnel vs. Tailscale Serve
 
 Tailscale Funnel securely exposes services to the public internet. Tailscale Serve is for sharing content within a private Tailscale network (Tailnet). You'll need to decide how you want to expose the service, the configurations in this repository exposes the local Tailnet.
 
