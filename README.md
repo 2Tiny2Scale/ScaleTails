@@ -7,7 +7,7 @@ The provided configurations showcase how to set up Tailscale alongside Docker se
 If you would like to add your own config, you can use the [service-template](templates/service-template/) or simply open an [issue](https://github.com/2Tiny2Scale/tailscale-docker-sidecar-configs/issues).
 
 ## Table of Contents
-- [Compose Configurations](#available-configurations)
+- [Available Configurations](#available-configurations)
   - [Networking and Security](#networking-and-security) 
   - [Media and Entertainment](#media-and-entertainment) 
   - [Productivity and Collaboration](#productivity-and-collaboration) 
