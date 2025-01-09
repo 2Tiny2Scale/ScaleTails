@@ -64,10 +64,11 @@ If you would like to add your own config, you can use the [service-template](tem
 
 ### Monitoring and Analytics
 
-| 📈 Service         | 📝 Description                                                                      | 🔗 Link                         |
-| ------------------ | ----------------------------------------------------------------------------------- | ------------------------------- |
-| 📊 **Uptime Kuma** | A self-hosted monitoring tool like "Uptime Robot".                                  | [Details](services/uptime-kuma) |
-| 📉 **Beszel**      | A lightweight server monitoring hub with historical data, Docker stats, and alerts. | [Details](services/beszel)      |
+| 📈 Service               | 📝 Description                                                                           | 🔗 Link                               |
+| ------------------------ | ---------------------------------------------------------------------------------------- | ------------------------------------- |
+| 📊 **Uptime Kuma**       | A self-hosted monitoring tool like "Uptime Robot".                                       | [Details](services/uptime-kuma)       |
+| 📉 **Beszel**            | A lightweight server monitoring hub with historical data, Docker stats, and alerts.      | [Details](services/beszel)            |
+| 🚀 **Speedtest Tracker** | A self-hosted tool to monitor and log internet speed tests with detailed visualizations. | [Details](services/speedtest-tracker) |
 
 ## Tailscale Funnel vs. Tailscale Serve
 
