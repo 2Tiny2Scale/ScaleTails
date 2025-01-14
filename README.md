@@ -7,6 +7,7 @@ The provided configurations showcase how to set up Tailscale alongside Docker se
 If you would like to add your own config, you can use the [service-template](templates/service-template/) or simply open an [issue](https://github.com/2Tiny2Scale/tailscale-docker-sidecar-configs/issues).
 
 ## Table of Contents
+
 - [Available Configurations](#available-configurations)
   - [Networking and Security](#networking-and-security) 
   - [Media and Entertainment](#media-and-entertainment) 
@@ -32,6 +33,7 @@ If you would like to add your own config, you can use the [service-template](tem
 | 🌐 **Traefik**             | A modern reverse proxy and load balancer for microservices.              | [Details](services/traefik)             |
 | 🚀 **Tailscale Exit Node** | Configure a device to act as an exit node for your Tailscale network.    | [Details](services/tailscale-exit-node) |
 | 🌐 **DDNS Updater**        | A self-hosted solution to keep DNS A/AAAA records updated automatically. | [Details](services/ddns-updater)        |
+| 🔍 **Nessus**              | A powerful vulnerability scanner to identify and remediate security issues. | [Details](services/nessus)              |
 
 ### Media and Entertainment
 
