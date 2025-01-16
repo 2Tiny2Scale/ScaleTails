@@ -1,0 +1,23 @@
+services:
+  # Tailscale Sidecar Configuration
+  tailscale:
+    extends:
+      file: docker-tailscale.yml #to standardize even more
+      service: tailscale-common
+    hostname: tautulli # Name used within your Tailscale environment
+    ports:
+      - 0.0.0.0:8181:8181 # Binding port 8181 to the local network - may be removed if only exposure to your Tailnet is required
+
+  # ${SERVICE}
+  application:
+    extends:
+      file: docker-tailscale.yml #to standardize even more
+      service: common #to standardize even more
+    container_name: app-${SERVICE} # Name for local container management
+    volumes:
+      - ${PWD}/${SERVICE}-data/app/config:/config
+    depends_on:
+      tailscale:
+        condition: service_healthy
+    environment:
+      - PUID=1000
