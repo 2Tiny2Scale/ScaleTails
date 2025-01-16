@@ -2,7 +2,7 @@ services:
   # Tailscale Sidecar Configuration
   tailscale:
     extends:
-      file: docker-tailscale.yml #to standardize even more
+      file: docker-tailscale.yml #Pull the standard/most common settings from the file
       service: tailscale-common
     hostname: tautulli # Name used within your Tailscale environment
     ports:
@@ -11,7 +11,7 @@ services:
   # ${SERVICE}
   application:
     extends:
-      file: docker-tailscale.yml #to standardize even more
+      file: docker-tailscale.yml #Pull the standard/most common settings from the file
       service: common #to standardize even more
     container_name: app-${SERVICE} # Name for local container management
     volumes:
