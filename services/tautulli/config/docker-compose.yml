@@ -12,7 +12,7 @@ services:
   application:
     extends:
       file: docker-tailscale.yml #Pull the standard/most common settings from the file
-      service: common #to standardize even more
+      service: common 
     container_name: app-${SERVICE} # Name for local container management
     volumes:
       - ${PWD}/${SERVICE}-data/app/config:/config
