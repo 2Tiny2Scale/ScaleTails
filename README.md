@@ -66,6 +66,7 @@ If you would like to add your own config, you can use the [service-template](tem
 | 🌿 **Isley**         | A self-hosted cannabis grow journal for tracking plants and managing grow data. | [Details](services/isley)          |
 | ✂️ **ClipCascade**   | A self-hosted clipboard manager for syncing and organizing clipboard history.   | [Details](services/clipcascade)    |
 | 🔖 **Linkding**      | A self-hosted bookmark manager to save and organize links.                      | [Details](services/linkding)       |
+| ✅ **DumbDo**        | A self-hosted, minimalistic task manager for simple to-do lists.                | [Details](services/dumbdo)         |
 
 ### Development Tools
 
