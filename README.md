@@ -16,6 +16,7 @@ If you would like to add your own config, you can use the [service-template](tem
     - [Productivity and Collaboration](#productivity-and-collaboration)
     - [Development Tools](#development-tools)
     - [Monitoring and Analytics](#monitoring-and-analytics)
+    - [Smart Home](#smart-home)
   - [Tailscale Information](#tailscale-information)
     - [Tailscale Funnel vs. Tailscale Serve](#tailscale-funnel-vs-tailscale-serve)
     - [Tailscale Funnel](#tailscale-funnel)
@@ -89,6 +90,12 @@ If you would like to add your own config, you can use the [service-template](tem
 | 📊 **Uptime Kuma**       | A self-hosted monitoring tool like "Uptime Robot".                                       | [Details](services/uptime-kuma)       |
 | 📉 **Beszel**            | A lightweight server monitoring hub with historical data, Docker stats, and alerts.      | [Details](services/beszel)            |
 | 🚀 **Speedtest Tracker** | A self-hosted tool to monitor and log internet speed tests with detailed visualizations. | [Details](services/speedtest-tracker) |
+
+### Smart Home
+
+| 🏠 Service            | 📝 Description                                                         | 🔗 Link                           |
+| --------------------- | ---------------------------------------------------------------------- | --------------------------------- |
+| 🏡 **Home Assistant** | An open-source home automation platform for controlling smart devices. | [Details](services/home-assistant) |
 
 ## Tailscale Information
 
