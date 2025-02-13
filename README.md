@@ -68,6 +68,7 @@ If you would like to add your own config, you can use the [service-template](tem
 | ✂️ **ClipCascade**   | A self-hosted clipboard manager for syncing and organizing clipboard history.   | [Details](services/clipcascade)    |
 | 🔖 **Linkding**      | A self-hosted bookmark manager to save and organize links.                      | [Details](services/linkding)       |
 | ✅ **DumbDo**        | A self-hosted, minimalistic task manager for simple to-do lists.                | [Details](services/dumbdo)         |
+| ✍️ **Ghost**         | A modern, open-source publishing platform for blogs and newsletters.            | [Details](services/ghost)          |
 
 ### Development Tools
 
@@ -93,8 +94,8 @@ If you would like to add your own config, you can use the [service-template](tem
 
 ### Smart Home
 
-| 🏠 Service            | 📝 Description                                                         | 🔗 Link                           |
-| --------------------- | ---------------------------------------------------------------------- | --------------------------------- |
+| 🏠 Service            | 📝 Description                                                         | 🔗 Link                            |
+| --------------------- | ---------------------------------------------------------------------- | ---------------------------------- |
 | 🏡 **Home Assistant** | An open-source home automation platform for controlling smart devices. | [Details](services/home-assistant) |
 
 ## Tailscale Information
