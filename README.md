@@ -70,6 +70,7 @@ If you would like to add your own config, you can use the [service-template](tem
 | ✅ **DumbDo**        | A self-hosted, minimalistic task manager for simple to-do lists.                | [Details](services/dumbdo)         |
 | ✍️ **Ghost**         | A modern, open-source publishing platform for blogs and newsletters.            | [Details](services/ghost)          |
 | 📝 **Nanote**        | A lightweight, self-hosted note-taking app with Markdown support.               | [Details](services/nanote)         |
+| ✅ **Eigenfocus**    | A self-hosted task and project management tool for productivity.                | [Details](services/eigenfocus)     |
 
 ### Development Tools
 
